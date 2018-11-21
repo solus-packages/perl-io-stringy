@@ -2,8 +2,8 @@
     <Source>
         <Name>perl-io-stringy</Name>
         <Packager>
-            <Name>Simon Friend</Name>
-            <Email>simbiotiqu@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>Artistic-1.0-Perl</License>
         <PartOf>programming.perl</PartOf>
@@ -19,25 +19,32 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/IO/AtomicFile.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/IO/InnerFile.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/IO/Lines.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/IO/Scalar.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/IO/ScalarArray.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/IO/Stringy.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/IO/Wrap.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/IO/WrapTie.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/x86_64-linux-thread-multi/auto/IO/Stringy/.packlist</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/IO/AtomicFile.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/IO/InnerFile.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/IO/Lines.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/IO/Scalar.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/IO/ScalarArray.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/IO/Stringy.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/IO/Wrap.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/IO/WrapTie.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/auto/IO/Stringy/.packlist</Path>
+            <Path fileType="man">/usr/share/man/man3/IO::AtomicFile.3</Path>
+            <Path fileType="man">/usr/share/man/man3/IO::InnerFile.3</Path>
+            <Path fileType="man">/usr/share/man/man3/IO::Lines.3</Path>
+            <Path fileType="man">/usr/share/man/man3/IO::Scalar.3</Path>
+            <Path fileType="man">/usr/share/man/man3/IO::ScalarArray.3</Path>
+            <Path fileType="man">/usr/share/man/man3/IO::Stringy.3</Path>
+            <Path fileType="man">/usr/share/man/man3/IO::Wrap.3</Path>
+            <Path fileType="man">/usr/share/man/man3/IO::WrapTie.3</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-01-20</Date>
+        <Update release="2">
+            <Date>2018-11-21</Date>
             <Version>2.111</Version>
             <Comment>Packaging update</Comment>
-            <Name>Simon Friend</Name>
-            <Email>simbiotiqu@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
