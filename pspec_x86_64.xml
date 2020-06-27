@@ -19,15 +19,15 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/IO/AtomicFile.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/IO/InnerFile.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/IO/Lines.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/IO/Scalar.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/IO/ScalarArray.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/IO/Stringy.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/IO/Wrap.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/IO/WrapTie.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/auto/IO/Stringy/.packlist</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/IO/AtomicFile.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/IO/InnerFile.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/IO/Lines.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/IO/Scalar.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/IO/ScalarArray.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/IO/Stringy.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/IO/Wrap.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/IO/WrapTie.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/auto/IO/Stringy/.packlist</Path>
             <Path fileType="man">/usr/share/man/man3/IO::AtomicFile.3</Path>
             <Path fileType="man">/usr/share/man/man3/IO::InnerFile.3</Path>
             <Path fileType="man">/usr/share/man/man3/IO::Lines.3</Path>
@@ -39,8 +39,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2019-06-15</Date>
+        <Update release="4">
+            <Date>2020-06-27</Date>
             <Version>2.111</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>
